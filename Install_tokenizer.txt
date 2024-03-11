@@ -1,0 +1,8 @@
+pip install vncorenlp
+mkdir vncorenlp\models\wordsegmenter
+curl -O https://raw.githubusercontent.com/vncorenlp/VnCoreNLP/master/VnCoreNLP-1.1.1.jar
+curl -O https://raw.githubusercontent.com/vncorenlp/VnCoreNLP/master/models/wordsegmenter/vi-vocab
+curl -O https://raw.githubusercontent.com/vncorenlp/VnCoreNLP/master/models/wordsegmenter/wordsegmenter.rdr
+move VnCoreNLP-1.1.1.jar vncorenlp\
+move vi-vocab vncorenlp\models\wordsegmenter\
+move wordsegmenter.rdr vncorenlp\models\wordsegmenter\
